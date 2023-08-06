@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="text-align:center;background-image:url('https://wallpapercave.com/wp/wp2940007.png');"><br><br><br><br><br><br><br><br>
+<h1>LOGIN</h1>
+<form  action="login" method="POST">
+    {% csrf_token %}
+    <input type="text" name="username" placeholder="enter your user name"><br>
+    <input type="password" name="password" placeholder="enter the password"><br>
+    <input type="submit"><br>
+</form>
+</body>
+</html>
